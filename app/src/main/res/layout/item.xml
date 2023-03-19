@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:backgroundTint="#673AB7">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        android:src="@drawable/davinci_code" />
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/item_image"
+        android:text="The Davinci code"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_title"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/item_image"
+        android:text="Rs 999"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buy_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_price"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/item_image"
+        android:text="Buy Now"
+        android:textSize="18sp" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "513521076698",
+    "project_id": "proj-eda5d",
+    "storage_bucket": "proj-eda5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513521076698:android:a3ab68a43f55c0d02cd8e3",
+        "android_client_info": {
+          "package_name": "com.example.proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513521076698-djitonh40sr1lnact6vnnl242ajnrd9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZzqJluaHHnmqDD2cDLyjeMFvZcQiSyP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513521076698-djitonh40sr1lnact6vnnl242ajnrd9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

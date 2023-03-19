@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">proj</string>
+    <string-array name="items">
+        <item>"The Da Vinci Code"</item>
+        <item>"The Girl On The Train"</item>
+        <item>"Harry Potter"</item>
+        <item>"Hunger Games"</item>
+        <item>"Lord of the Rings"</item>
+        <item>"Moby Dick"</item>
+        <item>"To Kill a Mockingbird"</item>
+        <item>"The Godfather"</item>
+    </string-array>
+    <string-array name="prices">
+        <item>399</item>
+        <item>499</item>
+        <item>599</item>
+        <item>699</item>
+        <item>799</item>
+        <item>899</item>
+        <item>999</item>
+        <item>1099</item>
+    </string-array>
+</resources>
